@@ -1,8 +1,12 @@
 var katzDeliLine = [];
 function takeANumber(currentLine, newName){
-  var newPlace = currentLine + 1;
-  katzDeliLine.push(newPlace);
-  var greeting = `Welcome, ${newName}. You are number ${newPlace} in line.`;
+  var greeting;
+  if(currentLine === 0){
+    greeting = 'The line is empty';
+  } else {
+    greeting = `Welcome, ${newName}. You are number ${currentLine + 1} in line.`;
+  }
+   
 
 
   return greeting;
