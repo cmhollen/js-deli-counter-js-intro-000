@@ -1,9 +1,8 @@
+var katzDeliLine = [];
 function takeANumber(currentLine, newName){
-  var katzDeliLine = [];
+  var newPlace = currentLine + 1;
 
-  while(0 < currentLine){
 
-    currentLine += 1;
   }
-  return `Welcome, ${newName}. You are number ${currentLine} in line.`;
+  return `Welcome, ${newName}. You are number ${newPlace} in line.`;
   }
