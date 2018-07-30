@@ -5,11 +5,11 @@ function takeANumber(katzDeliLine, newName){
   }
 
 function newServing(katzDeliLine){
-  
+
   if (!katzDeliLine.length){
     return'There is nobody waiting to be served!';
   } else {
-    return katzDeliLine.shift;
+    return `Currently serving ${katzDeliLine.shift()}`;
   }
 
 }
