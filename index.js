@@ -6,7 +6,7 @@ function takeANumber(currentLine, newName){
   } else {
     greeting = `Welcome, ${newName}. You are number ${currentLine + 1} in line.`;
   }
-   
+   katzDeliLine.push(newName);
 
 
   return greeting;
